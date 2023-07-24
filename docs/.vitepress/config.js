@@ -11,8 +11,9 @@ export default {
     },
     nav: [
       // 页面右上角的导航
-      { text: "blog1", link: "/blogs/blog1/" },
-      { text: "blog2", link: "/blogs/blog2/" },
+      { text: "javascript手写", link: "/hand/" },
+      { text: "react", link: "/react" },
+      { text: "vue", link: "/vue" },
       {
         text: "其他",
         items: [
@@ -24,41 +25,41 @@ export default {
     ],
     sidebar: {
       // 侧边栏，可以分组
-      // 当用户在 `blogs` 目录页面下将会展示这个侧边栏
-      "/blogs/blog1/": [
+      // 当用户在 `array` 目录页面下将会展示这个侧边栏
+      "/hand/array/": [
         {
-          text: "blog1",
+          text: "数组",
           items: [
             {
               text: "index",
-              link: "/blogs/blog1/",
+              link: "/hand/array/",
             },
             {
               text: "fisrt",
-              link: "/blogs/blog1/first",
+              link: "/hand/array/first",
             },
             {
               text: "second",
-              link: "/blogs/blog1/second",
+              link: "/hand/array/second",
             },
           ],
         },
       ],
-      "/blogs/blog2/": [
+      "/hand/function/": [
         {
-          text: "blog2",
+          text: "数组",
           items: [
             {
               text: "index",
-              link: "/blogs/blog2/",
+              link: "/hand/function/array/",
             },
             {
-              text: "first",
-              link: "/blogs/blog2/first",
+              text: "fisrt",
+              link: "/hand/function/first",
             },
             {
               text: "second",
-              link: "/blogs/blog2/second",
+              link: "/hand/function/second",
             },
           ],
         },
